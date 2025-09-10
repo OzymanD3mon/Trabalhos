@@ -3,13 +3,13 @@
 int main() {
     // Estrutura para representar uma carta
     struct Carta {
-        char codigo[4];              // Ex: "A01"
-        unsigned long int populacao; // População
-        float area;                  // Área em km²
-        float pib;                   // PIB em bilhões
-        int pontosTuristicos;        // Número de pontos turísticos
-        float densidadePopulacional; // Calculada: População / Área
-        float pibPerCapita;          // Calculado: PIB / População
+        char codigo[4];              
+        unsigned long int populacao; 
+        float area;                  
+        float pib;                   
+        int pontosTuristicos;        
+        float densidadePopulacional; 
+        float pibPerCapita;          
     };
 
     // Declaração das duas cartas
